@@ -1,0 +1,21 @@
+{
+  "name": "adventofcode2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint \"./**/*.{ts,js,tsx,jsx}\"",
+    "prettier": "npx prettier \"./**/*.{ts,js,json,yml,scss}\"",
+    "prettier:write": "npm run prettier -- --write",
+    "prettier:check": "npm run prettier -- --check",
+    "solve": "scripts/solve.sh",
+    "newday": "scripts/newday.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.3.0",
+    "prettier": "^2.5.0"
+  }
+}
