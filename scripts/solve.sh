@@ -7,4 +7,4 @@ tsc
 
 node day$DAY/part$PART.js
 
-rm day*/part*.js
+rm **/*.js
